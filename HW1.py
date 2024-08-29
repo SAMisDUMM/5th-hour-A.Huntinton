@@ -2,7 +2,6 @@
 
 #Class: 5th Hour
 #Assingment: HW1
-print("HELL0 WORLD")
 print("WELCOME TO AGH AI")
 print("WHAT IS YOUR NAME?")
 input("")
