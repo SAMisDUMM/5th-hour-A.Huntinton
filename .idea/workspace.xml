@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Added HW2">
-      <change afterPath="$PROJECT_DIR$/HW3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
     "Python.HW1.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.Hello World!!!!!!!!!!.executor": "Run",
+    "Python.Playground.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
