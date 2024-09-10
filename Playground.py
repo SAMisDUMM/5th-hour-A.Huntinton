@@ -1,4 +1,6 @@
-
+#Ashtin Gage Huntington
+#5th Hour Class
+#Playground
 print("Hello, Welcome to Grocery List AI" )
 x = input("Please ENTER name here: ")
 print(f"Welcome {x} to Grocery List AI")
