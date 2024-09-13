@@ -34,7 +34,7 @@ if y == 1:
             print("What Items would you Like to add to You List?")
             GroceryList.append(input())
             print(GroceryList)
-            print("ERROR WIFI RESOLUTION ISSUE")
+            print("ERROR VISUAL RESOLUTION ISSUE")
             print("GROCERY LIST AI SHUT IN 5")
             print("4")
             print("3")
