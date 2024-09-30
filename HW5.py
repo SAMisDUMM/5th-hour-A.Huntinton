@@ -17,7 +17,7 @@ if a > b and a > c:
 if b > a and b > c:
     print(f"Number 2 ({b}) is the Greatest Number.")
 if c > a and c > b:
-    print(f"Number 3 ({b}) is the Greatest Number.")
+    print(f"Number 3 ({c}) is the Greatest Number.")
 if b == a:
     print(f"Number 2 ({b}) Equals Number 1 ({a})")
 if c == a:
