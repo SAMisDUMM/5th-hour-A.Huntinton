@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Added HW6">
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Added HW6 *CORRECTED">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW5.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727720236716</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added HW6 *CORRECTED">
+      <option name="closed" value="true" />
+      <created>1727805987390</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727805987390</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added HW6 *CORRECTED">
+      <option name="closed" value="true" />
+      <created>1727806004890</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727806004890</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +211,7 @@
     <MESSAGE value="Added Scenario 2" />
     <MESSAGE value="Added HW5" />
     <MESSAGE value="Added HW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added HW6" />
+    <MESSAGE value="Added HW6 *CORRECTED" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW6 *CORRECTED" />
   </component>
 </project>

@@ -4,27 +4,25 @@
 
 print("Hello World!!!")
 
-a = int(input("Number 1 : "))
-b = int(input("Number 2 : "))
-c = int(input("Number 3 : "))
+numList = [5, 6, 6]
 
 
 
-Unicorn = (a, b, c )
-print(Unicorn)
-if a > b and a > c:
-    print(f"Number 1 ({a}) is the Greatest Number.")
-if b > a and b > c:
-    print(f"Number 2 ({b}) is the Greatest Number.")
-if c > a and c > b:
-    print(f"Number 3 ({c}) is the Greatest Number.")
-if b == a:
-    print(f"Number 2 ({b}) Equals Number 1 ({a})")
-if c == a:
-    print(f"Number 3 ({c}) Equals Number 1 ({a})")
-if b == c :
-    print(f"Number 2 ({b}) Equals Number 3 ({c})")
-if b == a and a == c:
+
+print(numList)
+if numList[0] > numList[1] and numList[0] > numList[2]:
+    print(f"Number 1 ({numList[0]}) is the Greatest Number.")
+if numList[1] > numList[0] and numList[1] > numList[2]:
+    print(f"Number 2 ({numList[1]}) is the Greatest Number.")
+if numList[2] > numList[0] and numList[2] > numList[1]:
+    print(f"Number 3 ({numList[2]}) is the Greatest Number.")
+if numList[1] == numList[0]:
+    print(f"Number 2 ({numList[1]}) Equals Number 1 ({numList[0]})")
+if numList[2] == numList[0]:
+    print(f"Number 3 ({numList[2]}) Equals Number 1 ({numList[0]})")
+if numList[1] == numList[2] :
+    print(f"Number 2 ({numList[1]}) Equals Number 3 ({numList[2]})")
+if numList[1] == numList[0] and numList[0] == numList[2]:
     print("All Numbers are Equal")
 
 
