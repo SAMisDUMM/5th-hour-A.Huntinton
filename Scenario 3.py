@@ -97,14 +97,14 @@ partyDict = {
     }
 }
 
-#Roll1 = [random.randint(1,6)]
-
-
-print(f"LaeZel Damage:{partyDict["LaeZel"]["Damage"]+partyDict["LaeZel"]["Damage"]+partyDict["LaeZel"]["Damage"]}")
 
 
 
-print(f"Shadowheart Damage:{partyDict["Shadowheart"]["Damage"]+partyDict["Shadowheart"]["Damage"]}")
+print(f"LaeZel Damage:{partyDict["LaeZel"]["Damage"]}")
+
+
+
+print(f"Shadowheart Damage:{partyDict["Shadowheart"]["Damage"]}")
 
 
 
@@ -112,11 +112,11 @@ print(f"Gale Damage:{partyDict["Gale"]["Damage"]}")
 
 
 
-print(f"Astarion Damage:{partyDict["Astarion"]["Damage"]+partyDict["Astarion"]["Damage"]}")
+print(f"Astarion Damage:{partyDict["Astarion"]["Damage"]}")
 
 
 
-
+AD20 = random.randint(1,20)
 D20 = random.randint(1,20)
 print(D20)
 D4 = random.randint(1,4)
@@ -129,16 +129,45 @@ if D4 == 1:
     if D5 == 1:
         print("Zombies!!!")
 
-        if D20 + partyDict["LaeZel"]["AT"] >= partyDict["Zombies"]["AC"]:
-            pass
+        if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Zombies"]["AC"]:
+            if partyDict["LaeZel"]["Damage"] >= videoGame["Zombies"]["Health"] :
+                print("Zombie Has Died ")
+
+            else :
+                print(f"Zombies Current Health :{videoGame["Zombies"]["Health"] - partyDict["LaeZel"]["Damage"]}")
+
+                if AD20 + videoGame["Zombies"]["AT"] >= partyDict["LaeZel"]["AC"] :
+                    if videoGame["Zombies"]["Damage"] >= partyDict["LaeZel"]["Health"] :
+                        print("LaeZel has fainted!!!")
+
+                    else :
+                        print(f"LaeZels Current Health :{partyDict["LaeZel"]["Health"] - videoGame["Zombies"]["Damage"]}")
+                else:
+                    print("Zombie misses!!!")
+
         else:
             print("MISS!!!")
 
     if D5 == 2:
         print("Spitter!!!")
 
-        if D20 + partyDict["LaeZel"]["AT"] >= partyDict["Spitter"]["AC"]:
-            pass
+        if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Spitter"]["AC"]:
+            if partyDict["LaeZel"]["Damage"] >= videoGame["Spitter"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Spitters Current Health :{videoGame["Spitter"]["Health"] - partyDict["LaeZel"]["Damage"]}")
+
+                if AD20 + videoGame["Spitter"]["AT"] >= partyDict["LaeZel"]["AC"]:
+                    if videoGame["Spitter"]["Damage"] >= partyDict["LaeZel"]["Health"]:
+                        print("LaeZel has fainted!!!")
+
+                    else:
+                        print(
+                            f"LaeZels Current Health :{partyDict["LaeZel"]["Health"] - videoGame["Spitter"]["Damage"]}")
+
+                else:
+                    print("Spitter misses!!!")
         else:
             print("MISS!!!")
 
@@ -146,24 +175,67 @@ if D4 == 1:
     if D5 == 3:
         print("Runner!!!")
 
-        if D20 + partyDict["LaeZel"]["AT"] >= partyDict["Runner"]["AC"]:
-            pass
+        if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Runner"]["AC"]:
+            if partyDict["LaeZel"]["Damage"] >= videoGame["Runner"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Runners Current Health :{videoGame["Runner"]["Health"] - partyDict["LaeZel"]["Damage"]}")
+
+                if AD20 + videoGame["Runner"]["AT"] >= partyDict["LaeZel"]["AC"]:
+                    if videoGame["Runner"]["Damage"] >= partyDict["LaeZel"]["Health"]:
+                        print("LaeZel has fainted!!!")
+
+                    else:
+                        print(
+                            f"LaeZels Current Health :{partyDict["LaeZel"]["Health"] - videoGame["Runner"]["Damage"]}")
+
+                else:
+                    print("Runner misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 4:
         print("Brute!!!")
 
-        if D20 + partyDict["LaeZel"]["AT"] >= partyDict["Brute"]["AC"]:
-            pass
+        if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Brute"]["AC"]:
+            if partyDict["LaeZel"]["Damage"] >= videoGame["Brute"]["Health"]:
+                print("Brute Has Died ")
+
+            else:
+                print(f"Brute Current Health :{videoGame["Brute"]["Health"] - partyDict["LaeZel"]["Damage"]}")
+
+                if AD20 + videoGame["Brute"]["AT"] >= partyDict["LaeZel"]["AC"]:
+                    if videoGame["Brute"]["Damage"] >= partyDict["LaeZel"]["Health"]:
+                        print("LaeZel has fainted!!!")
+
+                    else:
+                        print(
+                            f"LaeZels Current Health :{partyDict["LaeZel"]["Health"] - videoGame["Brute"]["Damage"]}")
+                else:
+                    print("Brute Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 5:
         print("Mutated??!!")
 
-        if D20 + partyDict["LaeZel"]["AT"] >= partyDict["Mutated"]["AC"]:
-            pass
+        if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Mutated"]["AC"]:
+            if partyDict["LaeZel"]["Damage"] >= videoGame["Mutated"]["Health"]:
+                print("Mutated Has Died ")
+
+            else:
+                print(f"Mutated Current Health :{videoGame["Mutated"]["Health"] - partyDict["LaeZel"]["Damage"]}")
+
+                if AD20 + videoGame["Mutated"]["AT"] >= partyDict["LaeZel"]["AC"]:
+                    if videoGame["Mutated"]["Damage"] >= partyDict["LaeZel"]["Health"]:
+                        print("LaeZel has fainted!!!")
+
+                    else:
+                        print(
+                            f"LaeZels Current Health :{partyDict["LaeZel"]["Health"] - videoGame["Mutated"]["Damage"]}")
+                else:
+                    print("Mutated Misses!!!")
         else:
             print("MISS!!!")
 
@@ -178,83 +250,220 @@ if D4 == 2:
     if D5 == 1:
         print("Zombies!!!")
 
-        if D20 + partyDict["Shadowheart"]["AT"] >= partyDict["Zombies"]["AC"]:
-            pass
+        if D20 + partyDict["Shadowheart"]["AT"] >= videoGame["Zombies"]["AC"]:
+            if partyDict["Shadowheart"]["Damage"] >= videoGame["Zombies"]["Health"]:
+                print("Zombies Has Died ")
+
+            else:
+                print(f"Zombies Current Health :{videoGame["Zombies"]["Health"] - partyDict["Shadowheart"]["Damage"]}")
+
+                if AD20 + videoGame["Zombies"]["AT"] >= partyDict["Shadowheart"]["AC"]:
+                    if videoGame["Zombies"]["Damage"] >= partyDict["Shadowheart"]["Health"]:
+                        print("Shadowheart has fainted!!!")
+
+                    else:
+                        print(
+                            f"Shadowheart Current Health :{partyDict["Shadowheart"]["Health"] - videoGame["Zombies"]["Damage"]}")
+                else:
+                    print("Zombies Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 2:
         print("Spitter!!!")
 
-        if D20 + partyDict["Shadowheart"]["AT"] >= partyDict["Spitter"]["AC"]:
-            pass
+        if D20 + partyDict["Shadowheart"]["AT"] >= videoGame["Spitter"]["AC"]:
+            if partyDict["Shadowheart"]["Damage"] >= videoGame["Spitter"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Spitter Current Health :{videoGame["Spitter"]["Health"] - partyDict["Shadowheart"]["Damage"]}")
+
+                if AD20 + videoGame["Spitter"]["AT"] >= partyDict["Shadowheart"]["AC"]:
+                    if videoGame["Spitter"]["Damage"] >= partyDict["Shadowheart"]["Health"]:
+                        print("Shadowheart has fainted!!!")
+
+                    else:
+                        print(
+                            f"Shadowheart Current Health :{partyDict["Shadowheart"]["Health"] - videoGame["Spitter"]["Damage"]}")
+                else:
+                    print("Spitter Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 3:
         print("Runner!!!")
 
-        if D20 + partyDict["Shadowheart"]["AT"] >= partyDict["Runner"]["AC"]:
-            pass
+        if D20 + partyDict["Shadowheart"]["AT"] >= videoGame["Runner"]["AC"]:
+            if partyDict["Shadowheart"]["Damage"] >= videoGame["Runner"]["Health"]:
+                print("Runner Has Died ")
+
+            else:
+                print(f"Runner Current Health :{videoGame["Runner"]["Health"] - partyDict["Shadowheart"]["Damage"]}")
+
+                if AD20 + videoGame["Runner"]["AT"] >= partyDict["Shadowheart"]["AC"]:
+                    if videoGame["Runner"]["Damage"] >= partyDict["Shadowheart"]["Health"]:
+                        print("Shadowheart has fainted!!!")
+
+                    else:
+                        print( f"Shadowheart Current Health :{partyDict["Shadowheart"]["Health"] - videoGame["Runner"]["Damage"]}")
+                else:
+                    print("Runner Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 4:
         print("Brute!!!")
 
-        if D20 + partyDict["Shadowheart"]["AT"] >= partyDict["Brute"]["AC"]:
-            pass
+        if D20 + partyDict["Shadowheart"]["AT"] >= videoGame["Brute"]["AC"]:
+            if partyDict["Shadowheart"]["Damage"] >= videoGame["Brute"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Brute Current Health :{videoGame["Brute"]["Health"] - partyDict["Shadowheart"]["Damage"]}")
+
+                if AD20 + videoGame["Brute"]["AT"] >= partyDict["Shadowheart"]["AC"]:
+                    if videoGame["Brute"]["Damage"] >= partyDict["Shadowheart"]["Health"]:
+                        print("Shadowheart has fainted!!!")
+
+                    else:
+                        print(f"Shadowheart Current Health :{partyDict["Shadowheart"]["Health"] - videoGame["Brute"]["Damage"]}")
+                else:
+                    print("Brute Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 5:
         print("Mutated??!!")
 
-        if D20 + partyDict["Shadowheart"]["AT"] >= partyDict["Mutated"]["AC"]:
-            pass
+        if D20 + partyDict["Shadowheart"]["AT"] >= videoGame["Mutated"]["AC"]:
+            if partyDict["Shadowheart"]["Damage"] >= videoGame["Mutated"]["Health"]:
+                print("Mutated Has Died ")
+
+            else:
+                print(f"Mutated Current Health :{videoGame["Mutated"]["Health"] - partyDict["Shadowheart"]["Damage"]}")
+
+                if AD20 + videoGame["Mutated"]["AT"] >= partyDict["Shadowheart"]["AC"]:
+                    if videoGame["Mutated"]["Damage"] >= partyDict["Shadowheart"]["Health"]:
+                        print("Shadowheart has fainted!!!")
+
+                    else:
+                        print(f"Shadowheart Current Health :{partyDict["Shadowheart"]["Health"] - videoGame["Mutated"]["Damage"]}")
+                else:
+                    print("Mutated Misses!!!")
         else:
             print("MISS!!!")
-
+###
 if D4 == 3:
     print("Gale is attacking...")
 
     if D5 == 1:
         print("Zombies!!!")
 
-        if D20 + partyDict["Gale"]["AT"] >= partyDict["Zombies"]["AC"]:
-            pass
+        if D20 + partyDict["Gale"]["AT"] >= videoGame["Zombies"]["AC"]:
+            if partyDict["Gale"]["Damage"] >= videoGame["Zombies"]["Health"]:
+                print("Zombies Has Died ")
+
+            else:
+                print(f"Zombies Current Health :{videoGame["Zombies"]["Health"] - partyDict["Gale"]["Damage"]}")
+
+                if AD20 + videoGame["Zombies"]["AT"] >= partyDict["Gale"]["AC"]:
+                    if videoGame["Zombies"]["Damage"] >= partyDict["Gale"]["Health"]:
+                        print("Gale has fainted!!!")
+
+                    else:
+                        print(f"Gale Current Health :{partyDict["Gale"]["Health"] - videoGame["Zombies"]["Damage"]}")
+                else:
+                    print("Zombies Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 2:
         print("Spitter!!!")
 
-        if D20 + partyDict["Gale"]["AT"] >= partyDict["Spitter"]["AC"]:
-            pass
+        if D20 + partyDict["Gale"]["AT"] >= videoGame["Spitter"]["AC"]:
+            if partyDict["Gale"]["Damage"] >= videoGame["Spitter"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Spitter Current Health :{videoGame["Spitter"]["Health"] - partyDict["Gale"]["Damage"]}")
+
+                if AD20 + videoGame["Spitter"]["AT"] >= partyDict["Gale"]["AC"]:
+                    if videoGame["Spitter"]["Damage"] >= partyDict["Gale"]["Health"]:
+                        print("Gale has fainted!!!")
+
+                    else:
+                        print(
+                            f"Gale Current Health :{partyDict["Gale"]["Health"] - videoGame["Spitter"]["Damage"]}")
+                else:
+                    print("Spitter Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 3:
         print("Runner!!!")
 
-        if D20 + partyDict["Gale"]["AT"] >= partyDict["Runner"]["AC"]:
-            pass
+        if D20 + partyDict["Gale"]["AT"] >= videoGame["Runner"]["AC"]:
+            if partyDict["Gale"]["Damage"] >= videoGame["Runner"]["Health"]:
+                print("Runner Has Died ")
+
+            else:
+                print(f"Runner Current Health :{videoGame["Runner"]["Health"] - partyDict["Gale"]["Damage"]}")
+
+                if AD20 + videoGame["Runner"]["AT"] >= partyDict["Gale"]["AC"]:
+                    if videoGame["Runner"]["Damage"] >= partyDict["Gale"]["Health"]:
+                        print("Gale has fainted!!!")
+
+                    else:
+                        print(
+                            f"Gale Current Health :{partyDict["Gale"]["Health"] - videoGame["Runner"]["Damage"]}")
+                else:
+                    print("Runner Misses!!!")
+
         else:
             print("MISS!!!")
 
     if D5 == 4:
         print("Brute!!!")
 
-        if D20 + partyDict["Gale"]["AT"] >= partyDict["Brute"]["AC"]:
-            pass
+        if D20 + partyDict["Gale"]["AT"] >= videoGame["Brute"]["AC"]:
+            if partyDict["Gale"]["Damage"] >= videoGame["Brute"]["Health"]:
+                print("Brute Has Died ")
+
+            else:
+                print(f"Brute Current Health :{videoGame["Brute"]["Health"] - partyDict["Gale"]["Damage"]}")
+
+                if AD20 + videoGame["Brute"]["AT"] >= partyDict["Gale"]["AC"]:
+                    if videoGame["Brute"]["Damage"] >= partyDict["Gale"]["Health"]:
+                        print("Gale has fainted!!!")
+
+                    else:
+                        print(
+                            f"Gale Current Health :{partyDict["Gale"]["Health"] - videoGame["Brute"]["Damage"]}")
+                else:
+                    print("Brute Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 5:
         print("Mutated??!!")
 
-        if D20 + partyDict["Gale"]["AT"] >= partyDict["Mutated"]["AC"]:
-            pass
+        if D20 + partyDict["Gale"]["AT"] >= videoGame["Mutated"]["AC"]:
+            if partyDict["Gale"]["Damage"] >= videoGame["Mutated"]["Health"]:
+                print("Mutated Has Died ")
+
+            else:
+                print(f"Mutated Current Health :{videoGame["Mutated"]["Health"] - partyDict["Gale"]["Damage"]}")
+
+                if AD20 + videoGame["Mutated"]["AT"] >= partyDict["Gale"]["AC"]:
+                    if videoGame["Mutated"]["Damage"] >= partyDict["Gale"]["Health"]:
+                        print("Gale has fainted!!!")
+
+                    else:
+                        print(
+                            f"Gale Current Health :{partyDict["Gale"]["Health"] - videoGame["Mutated"]["Damage"]}")
+                else:
+                    print("Mutated Misses!!!")
         else:
             print("MISS!!!")
 
@@ -268,40 +477,110 @@ if D4 == 4:
     if D5 == 1:
         print("Zombies!!!")
 
-        if D20 + partyDict["Astarion"]["AT"] >= partyDict["Zombies"]["AC"]:
-            pass
+        if D20 + partyDict["Astarion"]["AT"] >= videoGame["Zombies"]["AC"]:
+            if partyDict["Astarion"]["Damage"] >= videoGame["Zombies"]["Health"]:
+                print("Zombies Has Died ")
+
+            else:
+                print(f"Zombies Current Health :{videoGame["Zombies"]["Health"] - partyDict["Astarion"]["Damage"]}")
+
+                if AD20 + videoGame["Zombies"]["AT"] >= partyDict["Astarion"]["AC"]:
+                    if videoGame["Zombies"]["Damage"] >= partyDict["Astarion"]["Health"]:
+                        print("Astarion has fainted!!!")
+
+                    else:
+                        print(
+                            f"Astarion Current Health :{partyDict["Astarion"]["Health"] - videoGame["Zombies"]["Damage"]}")
+                else:
+                    print("Zombies Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 2:
         print("Spitter!!!")
 
-        if D20 + partyDict["Astarion"]["AT"] >= partyDict["Spitter"]["AC"]:
-            pass
+        if D20 + partyDict["Astarion"]["AT"] >= videoGame["Spitter"]["AC"]:
+            if partyDict["Astarion"]["Damage"] >= videoGame["Spitter"]["Health"]:
+                print("Spitter Has Died ")
+
+            else:
+                print(f"Spitter Current Health :{videoGame["Spitter"]["Health"] - partyDict["Astarion"]["Damage"]}")
+
+                if AD20 + videoGame["Spitter"]["AT"] >= partyDict["Astarion"]["AC"]:
+                    if videoGame["Spitter"]["Damage"] >= partyDict["Astarion"]["Health"]:
+                        print("Astarion has fainted!!!")
+
+                    else:
+                        print(
+                            f"Astarion Current Health :{partyDict["Astarion"]["Health"] - videoGame["Spitter"]["Damage"]}")
+                else:
+                    print("Spitter Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 3:
         print("Runner!!!")
 
-        if D20 + partyDict["Astarion"]["AT"] >= partyDict["Runner"]["AC"]:
-            pass
+        if D20 + partyDict["Astarion"]["AT"] >= videoGame["Runner"]["AC"]:
+            if partyDict["Astarion"]["Damage"] >= videoGame["Runner"]["Health"]:
+                print("Runner Has Died ")
+
+            else:
+                print(f"Runner Current Health :{videoGame["Runner"]["Health"] - partyDict["Astarion"]["Damage"]}")
+
+                if AD20 + videoGame["Runner"]["AT"] >= partyDict["Astarion"]["AC"]:
+                    if videoGame["Runner"]["Damage"] >= partyDict["Astarion"]["Health"]:
+                        print("Astarion has fainted!!!")
+
+                    else:
+                        print(
+                            f"Astarion Current Health :{partyDict["Astarion"]["Health"] - videoGame["Runner"]["Damage"]}")
+                else:
+                    print("Runner Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 4:
         print("Brute!!!")
 
-        if D20 + partyDict["Astarion"]["AT"] >= partyDict["Brute"]["AC"]:
-            pass
+        if D20 + partyDict["Astarion"]["AT"] >= videoGame["Brute"]["AC"]:
+            if partyDict["Astarion"]["Damage"] >= videoGame["Brute"]["Health"]:
+                print("Brute Has Died ")
+
+            else:
+                print(f"Brute Current Health :{videoGame["Brute"]["Health"] - partyDict["Astarion"]["Damage"]}")
+
+                if AD20 + videoGame["Brute"]["AT"] >= partyDict["Astarion"]["AC"]:
+                    if videoGame["Brute"]["Damage"] >= partyDict["Astarion"]["Health"]:
+                        print("Astarion has fainted!!!")
+
+                    else:
+                        print(
+                            f"Astarion Current Health :{partyDict["Astarion"]["Health"] - videoGame["Brute"]["Damage"]}")
+                else:
+                    print("Brute Misses!!!")
         else:
             print("MISS!!!")
 
     if D5 == 5:
         print("Mutated??!!")
 
-        if D20 + partyDict["Astarion"]["AT"] >= partyDict["Mutated"]["AC"]:
-            pass
+        if D20 + partyDict["Astarion"]["AT"] >= videoGame["Mutated"]["AC"]:
+            if partyDict["Astarion"]["Damage"] >= videoGame["Mutated"]["Health"]:
+                print("Mutated Has Died ")
+
+            else:
+                print(f"Mutated Current Health :{videoGame["Mutated"]["Health"] - partyDict["Astarion"]["Damage"]}")
+
+                if AD20 + videoGame["Mutated"]["AT"] >= partyDict["Astarion"]["AC"]:
+                    if videoGame["Mutated"]["Damage"] >= partyDict["Astarion"]["Health"]:
+                        print("Astarion has fainted!!!")
+
+                    else:
+                        print(
+                            f"Astarion Current Health :{partyDict["Astarion"]["Health"] - videoGame["Mutated"]["Damage"]}")
+                else:
+                    print("Mutated Misses!!!")
         else:
             print("MISS!!!")
 
