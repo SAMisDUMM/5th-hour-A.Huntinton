@@ -100,21 +100,6 @@ partyDict = {
 
 
 
-print(f"LaeZel Damage:{partyDict["LaeZel"]["Damage"]}")
-
-
-
-print(f"Shadowheart Damage:{partyDict["Shadowheart"]["Damage"]}")
-
-
-
-print(f"Gale Damage:{partyDict["Gale"]["Damage"]}")
-
-
-
-print(f"Astarion Damage:{partyDict["Astarion"]["Damage"]}")
-
-
 
 AD20 = random.randint(1,20)
 D20 = random.randint(1,20)
@@ -177,7 +162,7 @@ if D4 == 1:
 
         if D20 + partyDict["LaeZel"]["AT"] >= videoGame["Runner"]["AC"]:
             if partyDict["LaeZel"]["Damage"] >= videoGame["Runner"]["Health"]:
-                print("Spitter Has Died ")
+                print("Runner Has Died ")
 
             else:
                 print(f"Runners Current Health :{videoGame["Runner"]["Health"] - partyDict["LaeZel"]["Damage"]}")
