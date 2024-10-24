@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Added Scenario 3">
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Added HW8">
+      <change afterPath="$PROJECT_DIR$/HW 9.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW 8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,8 @@
   "keyToString": {
     "Python.HW 6.executor": "Run",
     "Python.HW 7.executor": "Run",
+    "Python.HW 8.executor": "Run",
+    "Python.HW 9.executor": "Run",
     "Python.HW1.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
@@ -255,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729096498443</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added HW8">
+      <option name="closed" value="true" />
+      <created>1729706564331</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729706564331</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,6 +285,7 @@
     <MESSAGE value="Added HW7 (uncomplete)" />
     <MESSAGE value="Added HW7" />
     <MESSAGE value="Added Scenario 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Scenario 3" />
+    <MESSAGE value="Added HW8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added HW8" />
   </component>
 </project>
