@@ -8,11 +8,10 @@ Temp = random.randint(0,30)
 
 if Temp > 20:
     print("Its Hot")
-    print("Thank You")
+
+elif Temp > 10:
+    print("Its Mild")
+
 else:
-    if Temp > 10:
-        print("Its Mild")
-        print("Thank You")
-    else:
-        print("Its Cold")
-        print("Thank You")
+    print("Its Cold")
+print("Thank You")
