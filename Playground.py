@@ -1,51 +1,50 @@
 #Ashtin Gage Huntington
 #5th Hour Class
 #Playground
-print("Hello, Welcome to Grocery List AI" )
-x = input("Please ENTER name here: ")
-print(f"Welcome {x} to Grocery List AI")
-print("Your current List Includes the Following")
-GroceryList =["Eggs","Milk","Pancakes","Dough","Human Child from Streets"]
-print(GroceryList)
-print("What Items would you Like to add to You List?")
-GroceryList.append(input())
-print(GroceryList)
-print("Would you like to Continue or Exit Grocery List AI?")
-print("If you Want Continue, Type 1")
-print("If you Want to Exit, Type 2")
-y = int(input())
-if y == 1:
-    print("What Items would you Like to add to You List?")
-    GroceryList.append(input())
-    print(GroceryList)
-    print("Would you like to Continue or Exit Grocery List AI?")
-    print("If you Want Continue, Type 1")
-    print("If you Want to Exit, Type 2")
-    a = int(input())
-    if a == 1:
-        print("What Items would you Like to add to You List?")
-        GroceryList.append(input())
-        print(GroceryList)
-        print("Would you like to Continue or Exit Grocery List AI?")
-        print("If you Want Continue, Type 1")
-        print("If you Want to Exit, Type 2")
-        b = int(input())
-        if b == 1:
-            print("What Items would you Like to add to You List?")
-            GroceryList.append(input())
-            print(GroceryList)
-            print("ERROR VISUAL RESOLUTION ISSUE")
-            print("GROCERY LIST AI SHUT IN 5")
-            print("4")
-            print("3")
-            print("2")
-            print("1")
-            print("Now Exiting...")
-        elif b == 2:
-            print("Bye")
+import random
+import time
 
-    elif a == 2:
-        print("Bye")
+A = random.randint(1,20)
+B = random.randint(1,20)
+C = random.randint(1,20)
 
-elif y == 2:
-    print("Bye")
+time.sleep(1)
+print("You're alone... in a dark room..ROLL PERCEPTION")
+print(f"You roll a {A}!")
+print(A)
+if A < 10 and A > 1:
+    print("You see a jail door, with no way out...")
+    print("What do you do?")
+    print("1) Cough...")
+    print("2) Search Area")
+    print("3) Roll Luck")
+    Inn = input(":")
+    if Inn == 1:
+        print("You Got the plague...YOU'RE DEAD!!!")
+
+    if Inn == 2:
+        print("ROLL FOR IT!!!")
+        print("You roll a...")
+        print(B)
+
+    if Inn == 3:
+        print("ROLL FOR IT!!!")
+        print("You roll a...")
+        print(B)
+
+        if B == 20:
+            print("You turn into god, breaking the entire prison and escaping... YOU WIN!!!")
+
+
+if A > 10:
+    print("You see a metal jail door, and a sleeping guard with a KEY!!!")
+    print("What do you do?")
+    print("A) Steal Key")
+    print("B) Cry Loudly")
+
+
+if A == 1:
+    print("You die from a cough...")
+    print("GAME OVER")
+    exit()
+
