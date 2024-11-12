@@ -35,9 +35,6 @@ for n in b:
 #4. Create a for loop that spells out a word you input backwards.
 #(HINT: Google "How to reverse a string in Python")
 
+for f in input("Input Word Here :")[::-1]:
 
-
-v = input("Input Word Here :")
-f = v[::-1]
-
-print(f)
+    print(f)
