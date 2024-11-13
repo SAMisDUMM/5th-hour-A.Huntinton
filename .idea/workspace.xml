@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 12 Pushed">
-      <change afterPath="$PROJECT_DIR$/HW 13.py" afterDir="false" />
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 13 Pushed">
+      <change afterPath="$PROJECT_DIR$/HW 14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW 12.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,7 @@
     "Python.HW 11.executor": "Run",
     "Python.HW 12.executor": "Run",
     "Python.HW 13.executor": "Run",
+    "Python.HW 14.executor": "Run",
     "Python.HW 6.executor": "Run",
     "Python.HW 7.executor": "Run",
     "Python.HW 8.executor": "Run",
@@ -336,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730920360244</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="HW 13 Pushed">
+      <option name="closed" value="true" />
+      <created>1731439129510</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731439129510</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +380,7 @@
     <MESSAGE value="Added HW11" />
     <MESSAGE value="Updated Playground" />
     <MESSAGE value="HW 12 Pushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 12 Pushed" />
+    <MESSAGE value="HW 13 Pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 13 Pushed" />
   </component>
 </project>
