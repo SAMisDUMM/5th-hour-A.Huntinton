@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 13 Pushed">
-      <change afterPath="$PROJECT_DIR$/HW 14.py" afterDir="false" />
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 14 Pushed">
+      <change afterPath="$PROJECT_DIR$/Scenario 4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
     "Python.Hello World!!!!!!!!!!.executor": "Run",
     "Python.Playground.executor": "Run",
     "Python.Scenario 3.executor": "Run",
+    "Python.Scenario 4.executor": "Run",
     "Python.Scenario.executor": "Run",
     "Python.Scenario_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -344,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731439129510</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="HW 14 Pushed">
+      <option name="closed" value="true" />
+      <created>1731524847908</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731524847908</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,6 +390,7 @@
     <MESSAGE value="Updated Playground" />
     <MESSAGE value="HW 12 Pushed" />
     <MESSAGE value="HW 13 Pushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 13 Pushed" />
+    <MESSAGE value="HW 14 Pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 14 Pushed" />
   </component>
 </project>
