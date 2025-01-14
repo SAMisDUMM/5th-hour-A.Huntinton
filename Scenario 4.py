@@ -20,7 +20,9 @@ i = 0
 t = 0
 y = 0
 j = 0
-
+b = 0
+n = 0
+l = 0
 print("Welcome To Project Dress-Up!!!!")
 
 input("Press Anything To Enter: ")
@@ -32,6 +34,8 @@ a = x - 1
 print(f"You Have Selected {x} Players!!")
 
 while not a == x:
+
+
 
 
     gender = random.randint(1, 4)
@@ -116,6 +120,7 @@ while not a == x:
         print("Nothing..?")
 
     while not j == x:
+
         i = int(input("Enter Rating: "))
 
         while i > 5 or i < 1:
@@ -125,7 +130,15 @@ while not a == x:
                 break
             else:
                 continue
+
+
+
         j += 1
+
+
+
+
+
 
 
 
@@ -135,9 +148,18 @@ while not a == x:
 
 
 
-    g = i / x
+    printer = answer/x
 
-    print(f"Your Average Rating Was {g}")
+
+
+
+
+
+
+
+
+
+    print(f"Your Average Rating Was {printer}")
 
 
 
