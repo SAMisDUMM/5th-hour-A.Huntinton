@@ -1,4 +1,4 @@
-#Name:
+#Name:Ashtin H.
 #Class: 5th Hour
 #Assignment: HW16
 import random
@@ -47,6 +47,7 @@ def rps():
         rps()
 
     else:
+        print("Goodbye!!!")
         exit()
 
 
