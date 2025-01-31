@@ -31,7 +31,7 @@ def looooop(g = int(input("Input Num Here: "))):
 
 #5. Call all of the functions created in 1 - 4 with relevant arguments.
 
-hello_world()
-average(6,10,2)
-animals("Zebra", "Gorilla", "Dog","Camel Raymond","Me")
-looooop(int(input("Input Num Here: ")))
+#hello_world()
+#average(6,10,2)
+#animals("Zebra", "Gorilla", "Dog","Camel Raymond","Me")
+#looooop(int(input("Input Num Here: ")))

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 17 Pushed">
-      <change afterPath="$PROJECT_DIR$/HW18.py" afterDir="false" />
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 18 Pushed">
+      <change afterPath="$PROJECT_DIR$/HW19.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW18.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737486818052</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="HW 18 Pushed">
+      <option name="closed" value="true" />
+      <created>1738176025690</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1738176025690</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +429,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added HW2" />
     <MESSAGE value="Added Playground" />
     <MESSAGE value="Added HW4" />
     <MESSAGE value="Added Scenario" />
@@ -445,6 +453,7 @@
     <MESSAGE value="HW 15 Pushed" />
     <MESSAGE value="HW 16 Pushed" />
     <MESSAGE value="HW 17 Pushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 17 Pushed" />
+    <MESSAGE value="HW 18 Pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 18 Pushed" />
   </component>
 </project>
