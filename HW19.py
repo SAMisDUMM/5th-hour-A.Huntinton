@@ -4,7 +4,7 @@
 
 #1. Import all the functions from the HW15 file.
 
-import HW15
+from HW15 import *
 
 #2. Call the functions here and run HW19.
 
@@ -15,3 +15,4 @@ looooop(int(input("Input Num Here: ")))
 
 
 #3. Delete all calls from HW15 and run HW19 again.
+

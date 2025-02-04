@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 18 Pushed">
-      <change afterPath="$PROJECT_DIR$/HW19.py" afterDir="false" />
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW 19 Pushed">
+      <change afterPath="$PROJECT_DIR$/Scenario6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scenario7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW18.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW19.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW19.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +66,7 @@
     "Python.HW 9.executor": "Run",
     "Python.HW1.executor": "Run",
     "Python.HW18.executor": "Run",
+    "Python.HW19.executor": "Run",
     "Python.HW3.executor": "Run",
     "Python.HW4.executor": "Run",
     "Python.HW5.executor": "Run",
@@ -73,11 +75,41 @@
     "Python.Scenario 3.executor": "Run",
     "Python.Scenario 4.executor": "Run",
     "Python.Scenario.executor": "Run",
+    "Python.Scenario6.executor": "Run",
     "Python.Scenario_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="HW19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="5th hour A.Huntinton" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW19.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.HW19" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -414,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738176025690</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="HW 19 Pushed">
+      <option name="closed" value="true" />
+      <created>1738349528250</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1738349528250</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Playground" />
     <MESSAGE value="Added HW4" />
     <MESSAGE value="Added Scenario" />
     <MESSAGE value="Added Scenario 2" />
@@ -454,6 +493,7 @@
     <MESSAGE value="HW 16 Pushed" />
     <MESSAGE value="HW 17 Pushed" />
     <MESSAGE value="HW 18 Pushed" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 18 Pushed" />
+    <MESSAGE value="HW 19 Pushed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 19 Pushed" />
   </component>
 </project>
