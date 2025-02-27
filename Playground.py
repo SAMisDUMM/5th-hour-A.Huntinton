@@ -33,7 +33,21 @@ def game():
             print("Double!!")
             game()
 
-        if y == 20:
-            exit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 game()
+
