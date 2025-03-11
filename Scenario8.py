@@ -149,9 +149,3 @@ if D4 == 1:
                     print("Mutated Misses!!!")
         else:
             print("MISS!!!")
-
-
-
-
-
-
