@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="Scenario 8 And HW23 Pushed!">
-      <change afterPath="$PROJECT_DIR$/HW24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e6c47a0-5818-4c72-ab09-dceef5198723" name="Changes" comment="HW24 Pushed!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,44 +45,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.AI Playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW20.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW21.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW22.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.HW5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hello World!!!!!!!!!!.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Scenario_2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.AI Playground.executor": "Run",
+    "Python.HW 10.executor": "Run",
+    "Python.HW 11.executor": "Run",
+    "Python.HW 12.executor": "Run",
+    "Python.HW 13.executor": "Run",
+    "Python.HW 14.executor": "Run",
+    "Python.HW 15.executor": "Run",
+    "Python.HW 16.executor": "Run",
+    "Python.HW 17.executor": "Run",
+    "Python.HW 6.executor": "Run",
+    "Python.HW 7.executor": "Run",
+    "Python.HW 8.executor": "Run",
+    "Python.HW 9.executor": "Run",
+    "Python.HW1.executor": "Run",
+    "Python.HW18.executor": "Run",
+    "Python.HW19.executor": "Run",
+    "Python.HW20.executor": "Run",
+    "Python.HW21.executor": "Run",
+    "Python.HW22.executor": "Run",
+    "Python.HW24.executor": "Run",
+    "Python.HW3.executor": "Run",
+    "Python.HW4.executor": "Run",
+    "Python.HW5.executor": "Run",
+    "Python.Hello World!!!!!!!!!!.executor": "Run",
+    "Python.Playground.executor": "Run",
+    "Python.Scenario 3.executor": "Run",
+    "Python.Scenario 4.executor": "Run",
+    "Python.Scenario.executor": "Run",
+    "Python.Scenario6.executor": "Run",
+    "Python.Scenario7.executor": "Run",
+    "Python.Scenario8.executor": "Run",
+    "Python.Scenario_2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -101,14 +99,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723830598905</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <option name="closed" value="true" />
-      <created>1723831987847</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723831987847</updated>
     </task>
     <task id="LOCAL-00002" summary="Added HW1">
       <option name="closed" value="true" />
@@ -494,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741715583806</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="HW24 Pushed!">
+      <option name="closed" value="true" />
+      <created>1742925588325</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1742925588325</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added HW7 (uncomplete)" />
     <MESSAGE value="Added HW7" />
     <MESSAGE value="Added Scenario 3" />
     <MESSAGE value="Added HW8" />
@@ -534,6 +531,7 @@
     <MESSAGE value="HW21 pushed!" />
     <MESSAGE value="Scenario 8 Pushed (Not HW 23)!" />
     <MESSAGE value="Scenario 8 And HW23 Pushed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scenario 8 And HW23 Pushed!" />
+    <MESSAGE value="HW24 Pushed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW24 Pushed!" />
   </component>
 </project>
